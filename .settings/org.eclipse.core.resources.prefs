@@ -2,5 +2,6 @@ eclipse.preferences.version=1
 encoding//pytest/UDP-Client.py=utf-8
 encoding//pytest/UDP-Server.py=utf-8
 encoding//pytest/pytest.py=utf-8
+encoding//udp-server/Constant.py=utf-8
 encoding//udp-server/__init__.py=utf-8
 encoding//udp-server/udp-server.py=utf-8
