@@ -63,7 +63,7 @@ def server():
         else:
             dataReturn = constant.returnResoutError
             print "can not get the UDP Packages!   Return the Error Mark!"
-#         sock.sendto(('[%s] %s'%(ctime(),dataReturn)).encode('utf8'),addr) #传输处理后的数据，需要写addr，仍然因为是无连接
-        
+        sock.sendto(('[%s] %s'%(ctime(),dataReturn)).encode('utf8'),addr) #传输处理后的数据，需要写addr，仍然因为是无连接
+
 if __name__ == '__main__':
     server()
