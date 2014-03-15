@@ -57,7 +57,7 @@ def server():
                 dataReturn = constant.returnResoutNull
                 print "the word is null!  Return the Null Mark!"
             else:
-                print "go on!   Return the right Mark!"
+                print "go on!   Return the right Mark!"+ctime()
                 #处理返回的数据
                 dealDatas(getStr)
         else:
